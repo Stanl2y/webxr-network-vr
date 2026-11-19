@@ -1,0 +1,38 @@
+[
+  {
+    "name": "tcp_forwarded_sampled",
+    "hex": "0807060504030201efbeadde0a000001c0a80102bb0138c7ea05060203000400",
+    "record": {
+      "ts_ns": "72623859790382856",
+      "flow_hash": 3735928559,
+      "src_ip": "10.0.0.1",
+      "dst_ip": "192.168.1.2",
+      "src_port": 443,
+      "dst_port": 51000,
+      "pkt_len": 1514,
+      "proto": 6,
+      "dev": 2,
+      "queue": 3,
+      "verdict": 0,
+      "sample_weight": 4
+    }
+  },
+  {
+    "name": "aggregated_queue_drop",
+    "hex": "e80300000000000000000000000000000000000000000000000000010782d204",
+    "record": {
+      "ts_ns": "1000",
+      "flow_hash": 0,
+      "src_ip": "0.0.0.0",
+      "dst_ip": "0.0.0.0",
+      "src_port": 0,
+      "dst_port": 0,
+      "pkt_len": 0,
+      "proto": 0,
+      "dev": 1,
+      "queue": 7,
+      "verdict": 130,
+      "sample_weight": 1234
+    }
+  }
+]
