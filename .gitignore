@@ -1,0 +1,6 @@
+/bin/
+*.exe
+*.o
+*.log
+web/node_modules/
+web/dist/
