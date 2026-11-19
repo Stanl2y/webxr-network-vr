@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>webxr-network-vr</title>
+    <style>
+      html, body { margin: 0; height: 100%; overflow: hidden; background: #050a14; }
+      #hud {
+        position: fixed; top: 12px; left: 12px; z-index: 2;
+        font: 13px/1.5 ui-monospace, SFMono-Regular, Consolas, monospace;
+        color: #cfe3ff; background: rgba(5, 10, 20, 0.72);
+        padding: 10px 12px; border: 1px solid #1d3557; border-radius: 6px; pointer-events: none;
+      }
+      #hud b { color: #fff; }
+      .tcp { color: #35d0ff; } .udp { color: #ffa733; } .icmp { color: #c58cff; } .drop { color: #ff5566; }
+    </style>
+  </head>
+  <body>
+    <div id="hud">loading...</div>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
